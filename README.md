@@ -47,7 +47,7 @@ C++ class. An Audio effect that simply logs out values via `Serial`. Add these i
 
 ### 3. AudioOutputStepper
 
-C++ class. An Audio effect to use as the output of the audio chain.
+C++ class. An Audio effect to use as the output of the audio chain, to step though the audio data incrementally.
 
 ### 4. Plotter GUI
 
