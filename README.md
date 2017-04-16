@@ -6,6 +6,61 @@ Plots Teensy Audio input and output values in a streaming graph. Audio is not pr
 
 ![Waveshaper input vs output](https://github.com/dxinteractive/TeensyAudioWaveshaper/blob/master/docs/example2.gif)
 
+## Example usage
+
+```c++
+#include <Audio.h>
+#include <Wire.h>
+#include <SPI.h>
+#include <SD.h>
+#include <SerialFlash.h>
+#include <TeensyAudioPlotter.h>
+#include "your_effect.h"
+
+AudioSynthWaveform waveform;
+AudioAnalyzeLogger dryLogger;
+AudioEffectYourEffect yourEffect;
+AudioAnalyzeLogger wetLogger;
+AudioOutputStepper stepper;
+
+AudioConnection patchCord1(waveform, 0, dryLogger, 0);
+AudioConnection patchCord2(dryLogger, 0, yourEffect, 0);
+AudioConnection patchCord3(yourEffect, 0, wetLogger, 0);
+AudioConnection patchCord4(wetLogger, 0, stepper, 0);
+
+TeensyAudioPlotter plotter;
+
+void setup() {
+  Serial.begin(9600);
+  AudioMemory(40);
+
+  plotter.setStepper(stepper);
+  plotter.addLogger(dryLogger);
+  plotter.addLogger(wetLogger);
+
+  waveform.begin(1.0, 200.0, WAVEFORM_SINE);
+  yourEffect.doSomething(true);
+}
+
+void loop() {
+  plotter.step();
+  if(plotter.newBlock()) {
+    // the actual processorUsage() call may or may not be accurate
+    // this is just an example of logging arbitrary data when a new audio block is processed
+    Serial.print("(processorUsage)");
+    Serial.println(yourEffect.processorUsage());
+  }
+  plotter.done();
+}
+
+```
+
+## Installation
+
+Not on platformio yet as it's too undercooked. Just clone the repo and do with it what you wish.
+
+## API
+
 It consists of 4 main parts:
 - C++
   - TeensyAudioPlotter
@@ -64,52 +119,3 @@ Plotter GUI expects a very specific Serial output in order to work, most of whic
 - Items which are in brackets followed by a value (like `Serial.println("(key) value");`) will be treated as "named values". These appear on the right and do not disappear like normal `Serial` output, but instead each value persists on screen until it is updated at a later point in time.
 - The `@` character should not be used in any `Serial.print()` or `Serial.println()` calls! (10 points if you can guess why)
 
-
-## Example usage
-
-```c++
-#include <Audio.h>
-#include <Wire.h>
-#include <SPI.h>
-#include <SD.h>
-#include <SerialFlash.h>
-#include <TeensyAudioPlotter.h>
-#include "your_effect.h"
-
-AudioSynthWaveform waveform;
-AudioAnalyzeLogger dryLogger;
-AudioEffectYourEffect yourEffect;
-AudioAnalyzeLogger wetLogger;
-AudioOutputStepper stepper;
-
-AudioConnection patchCord1(waveform, 0, dryLogger, 0);
-AudioConnection patchCord2(dryLogger, 0, yourEffect, 0);
-AudioConnection patchCord3(yourEffect, 0, wetLogger, 0);
-AudioConnection patchCord4(wetLogger, 0, stepper, 0);
-
-TeensyAudioPlotter plotter;
-
-void setup() {
-  Serial.begin(9600);
-  AudioMemory(40);
-
-  plotter.setStepper(stepper);
-  plotter.addLogger(dryLogger);
-  plotter.addLogger(wetLogger);
-
-  waveform.begin(1.0, 200.0, WAVEFORM_SINE);
-  yourEffect.doSomething(true);
-}
-
-void loop() {
-  plotter.step();
-  if(plotter.newBlock()) {
-    // the actual processorUsage() call may or may not be accurate
-    // this is just an example of logging arbitrary data when a new audio block is processed
-    Serial.print("(processorUsage)");
-    Serial.println(yourEffect.processorUsage());
-  }
-  plotter.done();
-}
-
-```
