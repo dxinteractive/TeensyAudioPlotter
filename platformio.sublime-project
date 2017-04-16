@@ -1,0 +1,97 @@
+{
+	"build_systems":
+	[
+		{
+			"cmd":
+			[
+				"platformio",
+				"-f", "-c", "sublimetext",
+				"run"
+			],
+			"name": "PlatformIO",
+			"variants":
+			[
+				{
+					"cmd":
+					[
+						"platformio",
+						"-f", "-c", "sublimetext",
+						"run"
+					],
+					"name": "Build"
+				},
+				{
+					"cmd":
+					[
+						"platformio",
+						"-f", "-c", "sublimetext",
+						"run",
+						"--target",
+						"clean"
+					],
+					"name": "Clean"
+				},
+				{
+					"cmd":
+					[
+						"platformio",
+						"-f", "-c", "sublimetext",
+						"test"
+					],
+					"name": "Test"
+				},
+				{
+					"cmd":
+					[
+						"platformio",
+						"-f", "-c", "sublimetext",
+						"run",
+						"--target",
+						"upload"
+					],
+					"name": "Upload"
+				},
+				{
+					"cmd":
+					[
+						"platformio",
+						"-f", "-c", "sublimetext",
+						"run",
+						"--target",
+						"program"
+					],
+					"name": "Upload using Programmer"
+				},
+				{
+					"cmd":
+					[
+						"platformio",
+						"-f", "-c", "sublimetext",
+						"run",
+						"--target",
+						"uploadfs"
+					],
+					"name": "Upload SPIFFS image"
+				},
+				{
+					"cmd":
+					[
+						"platformio",
+						"-f", "-c", "sublimetext",
+						"update"
+					],
+					"name": "Update platforms and libraries"
+				}
+			],
+			"working_dir": "${project_path:${folder}}",
+			"selector": "source.c, source.c++",
+			"path": "C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\nodejs\\;%SystemRoot%\\system32;%SystemRoot%;%SystemRoot%\\System32\\Wbem;%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\Damienn\\AppData\\Roaming\\npm;C:\\Users\\Damienn\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Python27;C:\\Python27\\Scripts"
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	]
+}
