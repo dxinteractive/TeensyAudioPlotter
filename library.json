@@ -1,0 +1,22 @@
+{
+  "name": "TeensyAudioPlotter",
+  "keywords": "teensy, audio, plot, graph, chart, debug",
+  "description": "Plots Teensy Audio input and output values in a streaming graph.",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/dxinteractive/TeensyAudioPlotter.git"
+  },
+  "authors":
+  [
+    {
+      "name": "Damien Clarke",
+      "email": "dxinteractive@gmail.com",
+      "url": "http://damienclarke.me",
+      "maintainer": true
+    }
+  ],
+  "version": "0.0.1",
+  "frameworks": "arduino",
+  "platforms": "*"
+}

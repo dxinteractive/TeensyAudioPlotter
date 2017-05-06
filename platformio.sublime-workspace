@@ -1,0 +1,512 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"AppHan",
+				"AppHandler"
+			],
+			[
+				"con",
+				"console.log"
+			],
+			[
+				"compon",
+				"componentWillMount	Life Cycle Method"
+			],
+			[
+				"Seq",
+				"SeqTokenArray"
+			],
+			[
+				"seq",
+				"seqTokenArray"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"Progr",
+				"ProgramPage"
+			],
+			[
+				"timou",
+				"timeout_ms"
+			],
+			[
+				"you",
+				"youtube"
+			],
+			[
+				"youtube",
+				"youtubeKeywords"
+			],
+			[
+				"Program",
+				"ProgramDetails"
+			],
+			[
+				"imdb",
+				"imdbRating"
+			],
+			[
+				"pop",
+				"popReady"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"loop",
+				"loop_ms"
+			],
+			[
+				"add",
+				"addProgram"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 464.0,
+		"last_filter": "build",
+		"selected_items":
+		[
+			[
+				"build",
+				"Disable/Enable buildview for this window"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"preser",
+				"MultiEditUtils: Preserve Case"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package con",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Damienn/Documents/make/arduino/TeensyAudioPlotter",
+		"/C/Users/Damienn/Documents/make/arduino/TeensyAudioPlotter/src"
+	],
+	"file_history":
+	[
+		"/C/Users/Damienn/Documents/make/arduino/TeensyAudioPlotter/src/TeensyAudioPlotter.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/TeensyAudioModdelay/README.md",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/src/api/Api.js",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/README.md",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/index.html",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/src/components/AppHandler.jsx",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/package.json",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/src/index.js",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/src/pages/HomePage.jsx",
+		"/C/Users/Damienn/Documents/make/money/badger/webpack.config.js",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/src/reducers.js",
+		"/C/Users/Damienn/Documents/make/money/badger/package.json",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/yarn.lock",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/.env",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/src/tunepaper/index.static.jsx",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/src/tunepaper/client.js",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/src/component/AppHandler.jsx",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/webpack.config.js",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/src/tunepaper/sass/styles.scss",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/circle.yml",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/.yo-rc.json",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/src/client.js",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/.eslintignore",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/.flowconfig",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/src/index.static.jsx",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/src/prerender.js",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/src/store.js",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/src/__test__/routes-test.js",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/src/component/Viewer.jsx",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/src/component/__test__/MainPage-test.js",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/src/component/__test__/Viewer-test.js",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/src/entity/EntityConstructor.js",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/src/entity/EntityQuery.js",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/src/entity/__test__/EntityQuery-test.js",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/src/entity/user/UserRecord.js",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/jsdoc.json",
+		"/C/Users/Damienn/Documents/make/web/tuneslator/src/grammar/SeqGrammar.js",
+		"/C/Users/Damienn/Documents/make/web/tuneslator/src/index.js",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/src/scoreplayer/Scoreplayer.jsx",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/node_modules/codemirror/mode/yaml/yaml.js",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/cfg/base.js",
+		"/C/Users/Damienn/Documents/make/web/tunepaper/5u3seo2t.rom.txt",
+		"/C/Users/Damienn/Documents/make/web/tuneslator/README.md",
+		"/C/Users/Damienn/Documents/make/web/tuneplayer/README.md",
+		"/C/Users/Damienn/Documents/make/web/tuneplayer/src/core/Tuneplayer.jsx",
+		"/C/Users/Damienn/Documents/make/web/tuneplayer/src/instrument/Synth.jsx",
+		"/C/Users/Damienn/Documents/make/web/tuneplayer/src/index.js",
+		"/C/Users/Damienn/Documents/make/web/tuneplayer/src/event/Sequence.jsx",
+		"/C/Users/Damienn/Documents/make/web/tuneplayer/src/instrument/SimpleSynth.jsx",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/chain_manager.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/chain_factory.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate_chain.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/chain_factory.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/AnalogMultiButton/src/AnalogMultiButton.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/chain_manager.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/control.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/audio.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/consts.h",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/input.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/AnalogMultiButton/src/AnalogMultiButton.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/input.h",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/migs.live/app/crawler/api/crawlerapi.class.php",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/migs.live/app/crawler/db/database.class.php",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/migs.live/app/crawler/db/sitesdata.class.php",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/migs.live/app/crawler/api/index.php",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/migs.live/app/crawler/api/crawlerAPI.class.php",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/migs.live/app/database.php",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/migs.live/app/crawler/db/sitesDB.class.php",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/migs.live/app/crawler/.htaccess",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/migs.live/app/cron.php",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/migs.live/app/crawl.php",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/migs.live/app/crawler/db/crawl_database.php",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/migs.live/app/crawler/db/crawl_sites.php",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/migs.live/app/crawler/api/crawler_api.class.php",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/migs.live/app/libs/api/APIKey.class.php",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/migs.live/app/libs/api/User.class.php",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/migs.live/app/libs/api/API.class.php",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/migs.live/app/.htaccess",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/migs.live/app/crawler/api/api.php",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/migs.live/app/libs/restapi/restapi.php",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/migs.live/app/cron/cron.php",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/.htpasswd",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/dxinteractive.com/me/.htaccess",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/migs.live/admin/.htaccess",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/uistate_manager.cpp",
+		"/C/Users/Damienn/Documents/make/arduino/libraries/bitshift/audio.h",
+		"/C/Users/Damienn/Downloads/fontello-ccddc571/fontello-ccddc571/css/fontello.css",
+		"/C/Users/Damienn/Documents/make/web/stan/stan-enhancer/manifest.json",
+		"/C/Users/Damienn/Documents/make/web/stan/stan-enhancer/README.md",
+		"/C/Users/Damienn/Documents/make/web/stan/stan-enhancer/stan-enhancer.js",
+		"/C/Users/Damienn/Documents/make/web/stan/stan-enhancer/stan-enhancer.css",
+		"/C/Users/Damienn/Documents/make/web/stan/src/popup.html",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/migs.live/gigs/crawl.php",
+		"/C/Users/Damienn/Documents/make/web/stan/src/stan-enhancer.js",
+		"/C/Users/Damienn/Documents/make/web/stan/src/manifest.json",
+		"/C/Users/Damienn/Documents/make/web/stan/src/background.js",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/migs.live/gigs/cron.php",
+		"/C/Users/Damienn/Documents/make/web/gigs/libs/querypath/composer.json",
+		"/C/Users/Damienn/Documents/make/web/stan/src/stan-enhancer.css",
+		"/C/Users/Damienn/Documents/make/web/stan/stan-enhancer.js",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/damienclarke.me/site/templates/post.php",
+		"/C/Users/Damienn/Documents/make/web/stan/stan-enhancer.css",
+		"/C/Users/Damienn/Documents/make/web/stan/manifest.json",
+		"/C/Users/Damienn/AppData/Local/Temp/776ffaf1-5c30-4bf8-a249-8dc2f18a3f6c/home/dxinteractive/damienclarke.me/site/templates/project.php",
+		"/C/Users/Damienn/Documents/make/web/stan/stan.css",
+		"/C/Users/Damienn/Documents/make/web/stan/mystyles.css",
+		"/C/Users/Damienn/Documents/make/web/stan/sample-json.txt",
+		"/C/Users/Damienn/Desktop/bleep",
+		"/C/Users/Damienn/Desktop/a.html",
+		"/C/Users/Damienn/Documents/make/web/stan/stan.js",
+		"/C/Users/Damienn/Documents/make/web/stan/poller.js",
+		"/C/Users/Damienn/Documents/make/web/stan/myscript.js",
+		"/C/Users/Damienn/Documents/make/web/stan/jquery.js"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"",
+			"C:\\Users\\Damienn\\Documents\\make\\web\\react-entity-editor"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"//",
+			"Serial",
+			"AudioEffectModdelay",
+			"waveshaper",
+			"Waveshaper",
+			"waveshaper",
+			"badger",
+			"components",
+			"ErrorHandler",
+			"div",
+			"Home",
+			"ErrorHandler",
+			"StatelessComponent",
+			"badger",
+			"isparta",
+			"static",
+			".html",
+			"html",
+			"Cannot",
+			"@include Obtu",
+			"client.js",
+			"StaticSiteGeneratorPlugin",
+			"env",
+			"REALDEMAND_ACCESS_CLIENT_PORT",
+			"REALDEMAND",
+			"REALDEMAND_ACCESS_CLIENT_PORT",
+			"GRAPHQL_LOADER",
+			"env",
+			"realde",
+			"big",
+			"realdemand-access-client",
+			"bigdatr",
+			"seqString",
+			"Parser",
+			"javascript",
+			"NoteList",
+			"get",
+			"isEnd",
+			"token",
+			"Start",
+			"tokenArray",
+			"ef",
+			"teArray",
+			"TokenArray",
+			"data",
+			"Sequence",
+			"Synth",
+			"note, time, velocity",
+			"Attack",
+			":",
+			"am",
+			"fm",
+			"\",",
+			",",
+			"attack",
+			"updateTransportProps",
+			"part",
+			"SimpleSynth",
+			"onRelease",
+			"onAttack",
+			"synth",
+			"Data",
+			"v1/",
+			"dbhandle",
+			"10",
+			"releaseYear",
+			"console.log",
+			"isSeries",
+			"OMDBRatings",
+			"fetchStanDetails",
+			"series",
+			"pages",
+			"$site",
+			"cent",
+			"20",
+			"loading_stan-enhance-dot",
+			"loading",
+			"dot",
+			"load",
+			"items",
+			"Poller.add",
+			".add",
+			"program",
+			"programData",
+			"popFooter",
+			"stan-enhance ",
+			"callback",
+			"failure",
+			"success",
+			"callback",
+			"fetch",
+			"callback",
+			"imdbRating",
+			"fetchStanDetails",
+			"pop__attributes",
+			"tomato",
+			"li",
+			": ",
+			"clear",
+			"clearP",
+			"program.",
+			";",
+			" =",
+			"prepare",
+			"preparePop",
+			"ProgramInfo",
+			"imdb",
+			"IMDB",
+			"programs",
+			"program.tit",
+			"series",
+			"seriesUrl",
+			"1670",
+			"335460",
+			"TIMEOUT_MS",
+			"LOOP_MS",
+			" ",
+			".+int ",
+			".+boolean ",
+			"\\(.+",
+			"ThingListener",
+			"movie",
+			" >",
+			"data-reactid=\".*?\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"tunepaper",
+			"stan-enhance-dot",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "platformio.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"score",
+				"tunepaper\\src\\scoreplayer\\Scoreplayer.jsx"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Damienn\\Documents\\make\\arduino\\libraries\\bitshift.sublime-project"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 386.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
