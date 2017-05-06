@@ -57,7 +57,7 @@ void loop() {
 
 ## Installation
 
-Not on platformio yet as it's too undercooked. Just clone the repo and do with it what you wish.
+`platformio platform install TeensyAudioPlotter`
 
 ## API
 
