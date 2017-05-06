@@ -1,6 +1,6 @@
 {
   "name": "TeensyAudioPlotter",
-  "keywords": "teensy, audio, plot, graph, chart, debug",
+  "keywords": "teensy, audio, plot, graph, chart",
   "description": "Plots Teensy Audio input and output values in a streaming graph.",
   "repository":
   {
